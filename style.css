@@ -1,0 +1,43 @@
+body {
+	font-family: Nunito Sans, arial;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+.banner-wrapper {
+	background: url(banner-blk-img1.jpg) no-repeat center center;
+	background-size: cover;
+	min-height: 700px;
+	position: relative;
+	height: 100%;
+	text-align: center;
+	background-color: #06060d;
+}
+
+
+.banner-container {
+	color:#ffffff;
+	font-family: Arial;
+	padding-top: 250px;
+	letter-spacing: 2px;
+}  
+
+.banner-container h1 {
+	font-weight: bold;
+}
+
+.banner-container h2 {
+	margin-top: 20px;
+	font-family: Nunito Sans;
+	padding-bottom: 10px;
+	color: #ffffff;
+}
+
+.banner-container h3 {
+	border-top: 2px solid #45F7B9;
+	margin: 0px 30%;
+}
