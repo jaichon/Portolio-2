@@ -1,21 +1,34 @@
 <!doctype html>
 <html lang="en">
 	 <head>
-			<!-- Required meta tags -->
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-			<!-- Bootstrap CSS -->
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-				 <link rel="stylesheet" href="style.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Quicksand" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
-			<title>Jhunior Ichon</title>
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="js/jquery.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+		<!-- Custom styling -->
+		<link rel="stylesheet" href="style.css">
+
+		<title>Jhunior Ichon</title>
 	 </head>
 	 <body>
-			<section class="container-fluid">
+			<div class="container-fluid">
 				 <section class="banner-wrapper">
 					 <header>
-							<nav class="navbar fixed-top navbar-expand-md">
+							<nav class="navbar fixed-top navbar-expand-md border-nav" id="navigation">
 								<div class="row">
 									<!-- brand logo -->
 									<a href="#" class="navbar-brand"><span class="orangeMe">JHUNIOR</span>ICHON</a>
@@ -26,19 +39,19 @@
 									<!-- nav links -->
 									<ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
 										<li class="nav-item">
-											<a class="nav-link" href="#">ABOUT</a>
+											<a class="nav-link" href="#about">ABOUT</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#">SKILLS</a>
+											<a class="nav-link" href="#skills">SKILLS</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#">EXPERIENCE</a>
+												<a class="nav-link" href="#works">WORKS</a>
+											</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#experience">EXPERIENCE</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="#">WORKS</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link" href="#">CONTACT</a>
+											<a class="nav-link" href="#contact">CONTACT</a>
 										</li>
 									</ul>
 								</div>
@@ -49,35 +62,182 @@
 										<h3>&nbsp;</h3>
 								</div>
 								<div class="d-none d-sm-none d-md-block slogan-container">
-									 <h2 class="anim-typewriter">Front end Web Developer / Email Designer & Developer</h2>
+									 <h2 class="anim-typewriter">Front end Web Developer / Email Designer &amp; Developer</h2>
 								</div>
 						 </div>
 					 </header>
-				 </section> <!-- nav & banner -->
+				</section> <!-- nav & banner -->
 
-				 <section class="about-me">
+				 <section id="about">
 					<div class="row">
-						<div class="col-md-4 offset-md-1">
-							<img src="Images/Jay-pogi-2-300px.png" id="jay-pic" alt="Jhunior Ichon">
-						</div> <!-- my image -->
-						<div class="offset-right-md-1 col-md-6">
-							<h2>About me</h2>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt sequi praesentium corrupti voluptates at sint suscipit ad hic, dolores veniam eius officiis libero dicta nostrum esse officia fugit ea!</p>
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt sequi praesentium corrupti voluptates at sint suscipit ad hic, dolores veniam eius officiis libero dicta nostrum esse officia fugit ea!</p>
-						</div> <!-- my intro -->
+						<div class="about-header col-md-12">
+								<h2 class="header-decorated">ABOUT ME</h2>
+						</div>
+							<div class="col-sm-4 offset-md-1">
+								<img src="Images/Jay-pogi-2-300px.png" id="jay-pic" alt="Jhunior Ichon">
+							</div> <!-- my image -->
+							<div class="col-sm-6 padTop20">
+								<h3>Hi! I'm Jay</h3>
+								<p>Quas deserunt sequi praesentium corrupti voluptates at sint suscipit ad hic, dolores veniam eius officiis libero dicta nostrum esse officia fugit ea!</p>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas deserunt sequi praesentium corrupti voluptates at sint suscipit ad hic, dolores veniam eius officiis libero dicta nostrum esse officia fugit ea! Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+								<p>Deserunt sequi praesentium corrupti voluptates at sint suscipit ad hic, dolores veniam eius officiis libero dicta nostrum esse officia fugit ea!</p>
+							</div> <!-- my intro -->
 					</div>
-				 </section> <!-- about me -->
-			</div>
+				</section> <!-- about me -->
+
+				<section id="skills">
+						<div class="skills-header col-md-12">
+								<h2 class="header-decorated">SKILLS</h2>
+						</div>
+						<div class="row justify-content-sm-center">
+							<div class="col-sm-3">
+								<div class="border-me">
+									<img src="https://image.ibb.co/jSeWS8/HTML5_Logo.png" class="img-rounded" alt="HTML5">
+									<p>HTML5</p>
+								</div>
+							</div>
+							<div class="col-sm-3 padTop20">
+								<div class="border-me">
+									<img src="https://image.ibb.co/jwZy78/CSS3_Logo.png" class="img-rounded" alt="CSS3">
+									<p>CSS3</p>
+								</div>
+							</div>
+							<div class="col-sm-3 padTop20"> 
+								<div class="border-me">
+									<img src="https://image.ibb.co/kVwpEo/JS5_Logo.png" class="img-rounded" alt="Javascript">
+									<p>Javascript</p>
+								</div>
+							</div>
+							<div class="col-sm-3 padTop20"> 
+								<div class="border-me">
+										<span class="helper"></span>
+									<img src="https://image.ibb.co/kaELLT/jquery.png" alt="jQuery">
+									<p>jQuery</p>
+								</div>
+							</div>
+						</div>
+						<div class="other-skills row">
+								<p>Those are just my primary skills. I am also capable in working with <strong>Bootstrap</strong>, <strong>Git</strong>, <strong>Sass/Less</strong> styling technique and <strong>Linux OS environment</strong>.</p>
+								<p>I am also proficient in <strong>Adobe Photoshop</strong> and <strong>Microsoft Office</strong> (Word, Excel, Powerpoint).</p>
+						</div>
+				</section> <!-- skills section -->
+
+				<section id="experience">
+					<div class="row">
+						<div class="page-header col-md-12">
+								<h2 class="header-decorated">EXPERIENCE</h2>
+						</div>
+						<ul class="timeline">
+							<li>
+								<div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+										<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted">
+								<div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+										<p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere
+											pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing
+											elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted">
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+										<hr>
+										<div class="btn-group">
+											<button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+												<i class="glyphicon glyphicon-cog"></i> <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu" role="menu">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here</a></li>
+												<li class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted">
+								<div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h4 class="timeline-title">Mussum ipsum cacilds</h4>
+									</div>
+									<div class="timeline-body">
+										<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
+											Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+		</div>
 
 
 
 
 
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<!-- Custom script -->
+		<script src="js/myscript.js"></script>
 	</body>
 </html>
