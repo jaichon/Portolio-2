@@ -8,12 +8,17 @@ h1 {
 	font-size: 45px;
 }
 
-#collapsibleNavbar {
+/* #collapsibleNavbar {
 	transition: ease-in-out 0.5s;
-}
+} */
 
 .navbar-toggler {
     border-color: rgb(68,65,65);
+}
+
+.about-me {
+	padding: 30px;
+	box-sizing: border-box;
 }
 
 .navbar-toggler-icon {
@@ -79,6 +84,11 @@ h1 {
 	background-color: #06060d;
 }
 
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 
 .banner-container {
 	color:#ffffff;
@@ -113,6 +123,12 @@ h1 {
 	width: 430px;
 }
 
+#jay-pic {
+	max-width: 250px;
+	height: auto;
+	margin: auto;
+}
+
 /* typewriter animation */
 /* Animation */
 .anim-typewriter{
@@ -135,5 +151,9 @@ h1 {
 
 	h1 {
 		font-size: 2rem;
+	}
+
+	.about-me {
+		padding: 20px;
 	}
 }
