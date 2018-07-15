@@ -1,4 +1,16 @@
 $(document).ready(function(){
+	//nav opacity 
+	$(window).scroll(function () {
+		if($(window).scrollTop() > 100) {
+			$('nav').addClass("bg-nav");
+			$('nav').removeClass("border-nav");
+		} else {
+			$('nav').removeClass("bg-nav");
+			$('nav').addClass("border-nav");
+		}
+	});
+
+	//Smooth scrolling
 	$('a[href*="#"]')// Select all links with hashes
 	// Remove links that don't actually link to anything
 	.not('[href="#"]')
@@ -10,41 +22,25 @@ $(document).ready(function(){
 		&& 
 		location.hostname == this.hostname
 	) {
-		// Figure out element to scroll to
 		var target = $(this.hash);
 		target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-		// Does a scroll target exist?
 		if (target.length) {
-		// Only prevent default if animation is actually gonna happen
 		event.preventDefault();
 		$('html, body').animate({
 			scrollTop: target.offset().top
-		}, 700, function() {
-			// Callback after animation
-			// Must change focus!
+		}, 500, function() {
 			var $target = $(target);
 			$target.focus();
-			if ($target.is(":focus")) { // Checking if the target was focused
+			if ($target.is(":focus")) { 
 			return false;
 			} else {
-			$target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-			$target.focus(); // Set focus again
+			$target.attr('tabindex','-1');
+			$target.focus();
 			};
 		});
 		}
 	}
 	}); //Smooth Scrolling
 	
-	//nav opacity 
-	var nav = document.getElementById('navigation');
-	window.onscroll = function() {
-			if(window.pageYOffset > 100) {
-				nav.style.background = "#06060D";
-				$('#navigation').removeClass("border-nav");
-		} else {
-			$('#navigation').addClass("border-nav");
-			nav.style.background = "transparent";
-		}
-	}
 });
 

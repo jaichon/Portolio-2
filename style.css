@@ -9,6 +9,10 @@ h1 {
 	font-size: 45px;
 }
 
+a {
+	color:#e84545;
+}
+
 /* #collapsibleNavbar {
 	transition: ease-in-out 0.5s;
 } */
@@ -46,7 +50,7 @@ h1 {
 }
 
 #about {
-	padding: 50px 0px;
+	padding: 50px 0px 0px;
 	box-sizing: border-box;
 	background: #ececec;
 }
@@ -56,7 +60,7 @@ h1 {
 }
 
 .navbar {
-	padding: 1.3em 0em;
+	min-height: 60px;
 }
 
 .border-nav {
@@ -94,6 +98,10 @@ h1 {
 	font-family: 'Poppins', sans-serif;
 }
 
+.bg-nav {
+	background:rgb(6,6,13, 0.9);
+}
+
 .nav-item {
 	padding: 0px 10px;
 }
@@ -116,10 +124,6 @@ h1 {
 	background-color: #333;
 }
 
-.nav-opacity {
-	opacity: 0.7;
-}
-
 .container-fluid {
 	padding-left: 0;
 	padding-right: 0;
@@ -129,7 +133,7 @@ h1 {
 .banner-container {
 	color:#ffffff;
 	font-family: Arial;
-	padding-top: 250px;
+	padding-top: 240px;
 }  
 
 .banner-container h1 {
@@ -153,7 +157,7 @@ h1 {
 }
 
 .banner-container h3 {
-	border-top: 2px solid #e84545;
+	border-top: 1px solid #e84545;
 	margin: 10px auto 0;
 	font-size: 10px;
 	width: 430px;
@@ -171,10 +175,10 @@ h1 {
 }
 
 .border-me {
-	border-top: 1px solid #ededed;
-	border-bottom: 7px solid #ededed;
-	border-left: 1px solid #ededed;
-	border-right: 1px solid #ededed;
+	border-top: 1px solid #c7c7c7;
+	border-bottom: 7px solid #c7c7c7;
+	border-left: 1px solid #c7c7c7;
+	border-right: 1px solid #c7c7c7;
 	padding: 15px 10px 15px;
 	text-align: center;
 	font-size: 14px;
@@ -229,12 +233,12 @@ padding-left: 0px !important;
 }
 
 #experience {
+	background: #ececec; 
 	padding: 50px 0px;
 }
 
 .page-header {
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 /*Timeline*/
@@ -249,8 +253,8 @@ padding-left: 0px !important;
 	bottom: 0;
 	position: absolute;
 	content: " ";
-	width: 3px;
-	background-color: #eeeeee;
+	width: 2px;
+	background-color: rgba(0,0,0,.075);
 	left: 50%;
 	margin-left: -1.5px;
   }
@@ -281,9 +285,9 @@ padding-left: 0px !important;
   }
   
   .timeline > li > .timeline-panel {
-	width: 46%;
+	width: 45%;
 	float: left;
-	border: 1px solid #d4d4d4;
+	border: 1px solid #d4d3d3;
 	border-radius: 2px;
 	padding: 20px;
 	position: relative;
@@ -297,8 +301,8 @@ padding-left: 0px !important;
 	right: -15px;
 	display: inline-block;
 	border-top: 15px solid transparent;
-	border-left: 15px solid #ccc;
-	border-right: 0 solid #ccc;
+	border-left: 15px solid #cccccc;
+	border-right: 0 solid #cccccc;
 	border-bottom: 15px solid transparent;
 	content: " ";
   }
@@ -309,8 +313,8 @@ padding-left: 0px !important;
 	right: -14px;
 	display: inline-block;
 	border-top: 14px solid transparent;
-	border-left: 14px solid #fff;
-	border-right: 0 solid #fff;
+	border-left: 14px solid #cccccc;
+	border-right: 0 solid #cccccc;
 	border-bottom: 14px solid transparent;
 	content: " ";
   }
@@ -326,13 +330,29 @@ padding-left: 0px !important;
 	top: 16px;
 	left: 50%;
 	margin-left: -25px;
-	background-color: #999999;
+	background-color: #EAEAEA;
 	z-index: 100;
-	border-top-right-radius: 50%;
-	border-top-left-radius: 50%;
-	border-bottom-right-radius: 50%;
-	border-bottom-left-radius: 50%;
-  }
+	border-radius:50%;
+	box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0px 4px rgba(0, 0, 0, 0.05);
+	}
+
+	.dynamicobjx {
+		width: 45px;
+		height: auto;
+	}
+	
+	.sac-logo {
+		width: 25px;
+		height: auto;
+	}
+
+	
+	.timeline-container {
+		width:90%;
+		max-width: 1140px;
+		margin: 0 auto;
+		padding-top: 40px;
+	}
   
   .timeline > li.timeline-inverted > .timeline-panel {
 	float: right;
@@ -375,17 +395,133 @@ padding-left: 0px !important;
   .timeline-title {
 	margin-top: 0;
 	color: inherit;
-  }
+	font-size: 0.8em;
+	font-weight: bold;
+	}
+	
   
   .timeline-body > p,
   .timeline-body > ul {
 	margin-bottom: 0;
-  }
-  
+	font-size: 0.8em;
+	list-style: none;
+	padding-left: 0;
+	}
+	
+	.chevron {
+		position: absolute;
+		bottom: 50px;
+	}
+
+	.chevron a {
+		color: #ffffff;
+		font-size: 2.5em;
+	}
+	
+	.chevron a:hover {
+		color: #e84545;
+		text-decoration: none;
+	}
+
   .timeline-body > p + p {
 	margin-top: 5px;
-  }
-  
+	}
+
+	.text-muted {
+		font-size: 0.7em;
+	}
+
+	.cta {
+		padding-top: 70px
+	}
+
+	.lnr-download {
+		font-size: 0.8em;
+	}
+
+	#about a:hover {
+		text-decoration: none;
+	}
+	
+	.cta-btn {
+		display: block;
+		max-width: 250px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: #ffffff;
+		font-size: 1em;
+		font-weight: normal;
+		border-radius: 7px;
+		text-decoration: none;
+		font-family: 'Poppins', sans-serif;
+		border: 2px solid #ffffff;
+		margin: 20px auto 0;
+		transition: all 0.5s;
+	}
+
+	.cta-btn:hover {
+		color: #e84545;
+		text-decoration: none;
+		border: 2px solid #e84545;
+	}
+
+	footer {
+		background: rgb(6,6,13);
+		padding-top: 20px;
+		padding-bottom: 20px;
+		color: #ffffff;
+	}
+
+	.breadcrumb {
+		margin: 0;
+		background: transparent;
+		font-size: 0.8em;
+		color: #d4d3d3;
+		padding: 0;
+	}
+
+	.breadcrumb a {
+		color:#d4d3d3;
+	}
+
+	.breadcrumb a:hover {
+		color:#e84545;
+	}
+
+	.row-footer {
+		max-width: 1140px;
+		margin: 0 auto;
+		padding: 0 3%;
+	}
+
+	footer {
+		text-align: center;
+	}
+
+	.footer-container p {
+		font-size: 0.8em;
+		margin: 0;
+		color: #d4d3d3;
+	}
+
+	.footer-container ul, li {
+		margin: 0;
+		padding: 0;
+		list-style:none;
+		display: inline-block;
+	}
+
+
+
+@media (min-width: 990px) {
+	.footer-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
 @media (max-width: 767px) {
 	ul.timeline:before {
 		left: 40px;
@@ -425,7 +561,7 @@ padding-left: 0px !important;
 /* typewriter animation */
 /* Animation */
 .anim-typewriter{
-	animation: typewriter 4s steps(44) 1s 1 normal both,
+	animation: typewriter 3s steps(44) 1s 1 normal both,
 			   blinkTextCursor 500ms steps(44) infinite normal;
   }
   @keyframes typewriter{
@@ -439,7 +575,7 @@ padding-left: 0px !important;
 
 @media screen and (max-width: 576px) {
 	.banner-container h3 {
-		width: 80%;
+		width: 70%;
 	}
 
 	.col-sm-3 {
@@ -451,6 +587,15 @@ padding-left: 0px !important;
 	}
 
 	#about {
+		padding-top: 30px;
+	}
+
+	#skills {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	#experience {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
