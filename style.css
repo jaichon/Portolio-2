@@ -87,7 +87,11 @@ a:hover {
 	letter-spacing: 1px;
 	font-size: 18px;
 	font-family: Quicksand;
+<<<<<<< HEAD
 	transition: all 0.5s;
+=======
+	font-weight: 800;
+>>>>>>> 36cecbc55614d47ded2cb25ffcd6ec381ab0712d
 }
 
 .navbar-brand:hover {
@@ -243,6 +247,7 @@ padding-left: 0px !important;
 #experience {
 	background: #ececec; 
 	padding: 50px 0px;
+	background: #f4f7f9;
 }
 
 .page-header {
@@ -300,7 +305,7 @@ padding-left: 0px !important;
 	padding: 20px;
 	position: relative;
 	-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.175)
   }
   
   .timeline > li > .timeline-panel:before {
@@ -403,14 +408,24 @@ padding-left: 0px !important;
   .timeline-title {
 	margin-top: 0;
 	color: inherit;
+<<<<<<< HEAD
 	font-size: 0.8em;
 	font-weight: bold;
 	}
 	
+=======
+	font-size: 1em;
+	}
+	
+	.text-muted {
+		font-size: 70%;
+	}
+>>>>>>> 36cecbc55614d47ded2cb25ffcd6ec381ab0712d
   
   .timeline-body > p,
   .timeline-body > ul {
 	margin-bottom: 0;
+<<<<<<< HEAD
 	font-size: 0.8em;
 	list-style: none;
 	padding-left: 0;
@@ -431,6 +446,11 @@ padding-left: 0px !important;
 		color:#e84545;
 	}
 
+=======
+	font-size: 0.7em;
+  }
+  
+>>>>>>> 36cecbc55614d47ded2cb25ffcd6ec381ab0712d
   .timeline-body > p + p {
 	margin-top: 5px;
 	}
