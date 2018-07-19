@@ -12,12 +12,12 @@
 
 		<!-- Fonts -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/brands.css" integrity="sha384-7xAnn7Zm3QC1jFjVc1A6v/toepoG3JXboQYzbM0jrPzou9OFXm/fY6Z/XiIebl/k" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="js/jquery.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
@@ -89,7 +89,7 @@
 								<p>I am an aspiring web developer specialist currently focusing in front-end technologies with solid experience in email design, build and automation.</p>
 								<p>I am very passionate about web development and I love to take any challenges in this field.</p>
 								<p>I am looking forward to be working with you!</p>
-								<p> <a href="#">See what people says about me&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
+								<p> <a href="#testimonials">See what people says about me&nbsp;<i class="fa fa-angle-double-right"></i></a></p>
 							</div> <!-- my intro -->
 					</div>
 				</section> <!-- about me -->
@@ -196,23 +196,81 @@
 					</div>
 				</section> <!-- experience -->
 
+				<section id="testimonials">
+					<div class="row">
+						<div class="page-header col-md-12">
+							<h2 class="header-decorated">WHAT PEOPLE SAYS</h2>
+						</div>
+						<div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+									<div class="carousel-item active">
+										<div class="quote-block w100">
+											<div class="quote-image">
+												<img src="Images/img-placeholder.png" alt="image">
+											</div>
+											<div class="quote-text">
+												<p class="wht">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi quibusdam. Fugiat dignissimos architecto eius ut magni ipsum temporibus numquam exercitationem? Dolores unde reprehenderit et quibusdam officia ducimus qui odit!&quot;</p>
+												<h4 class="wht">JAY ICHON</h4>
+											</div>
+										</div> 
+									</div>
+									<div class="carousel-item">
+										<div class="quote-block w100">
+											<div class="quote-image">
+												<img src="Images/img-placeholder-2.png" alt="image">
+											</div>
+											<div class="quote-text">
+												<p class="wht">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi quibusdam. Fugiat dignissimos architecto eius ut magni ipsum temporibus numquam exercitationem? Dolores unde reprehenderit et quibusdam officia ducimus qui odit!&quot;</p>
+												<h4 class="wht">JAY ICHON</h4>
+											</div>
+										</div> 
+									</div>
+									<div class="carousel-item">
+										<div class="quote-block w100">
+											<div class="quote-image">
+												<img src="Images/img-placeholder-3.png" alt="image">
+											</div>
+											<div class="quote-text">
+												<p class="wht">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi quibusdam. Fugiat dignissimos architecto eius ut magni ipsum temporibus numquam exercitationem? Dolores unde reprehenderit et quibusdam officia ducimus qui odit!&quot;</p>
+												<h4 class="wht">JAY ICHON</h4>
+											</div>
+										</div> 
+									</div>
+							</div>
+
+							<div class="carousel-controls">
+								<a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+									<span class="lnr lnr-chevron-left"></span>
+								</a>
+								<a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+									<span class="lnr lnr-chevron-right"></span>
+								</a>
+							</div>
+
+							<div class="indicators">
+									<ol class="carousel-indicators">
+										<li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+										<li data-target="#testimonial-carousel" data-slide-to="1"></li>
+										<li data-target="#testimonial-carousel" data-slide-to="2"></li>
+									</ol>
+								</div>
+							</div>
+					</div>
+				</section>
+
 				<section id="footer">
 					<footer>
 						<div class="row-footer">
 							<div class="footer-container">
-								<nav aria-label="breadcrumb">
+								<!-- <nav aria-label="breadcrumb">
 									<ol class="breadcrumb">
-										<li class="breadcrumb-item"><a href="#about">About</a></li>
-										<li class="breadcrumb-item"><a href="#testimonials">Testimonials</a></li>
-										<Jli class="breadcrumb-item"><a href="#contact">Download</a></Jli>
+										<li class="breadcrumb-item"><a href="#about" class="semi-wht">About</a></li>
+										<li class="breadcrumb-item"><a href="#testimonials" class="semi-wht">Testimonials</a></li>
+										<Jli class="breadcrumb-item"><a href="#contact" class="semi-wht">Download</a></Jli>
 									</ol>
-								</nav>
-								<p>Jhunior Ichon&copy; 2018. All rights reserved.</p>
-								<ul>
-									<li><i class="fa facebook-f"></i></li>
-									<li><i class="fa fa-twitter"></i></li>
-									<li><i class="fa fa-ist"></i></li>
-								</ul>
+								</nav> -->
+								<p class="semi-wht font-small">Jhunior Ichon&copy; 2018. All rights reserved.</p>
+								<a href="mailto:hellojhuniorichon@gmail.com" class="semi-wht font-small"><i class="fa fa-envelope"></i> hellojhuniorichon@gmail.com</a>
 							</div>
 						</div>
 					</footer>

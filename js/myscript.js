@@ -42,5 +42,9 @@ $(document).ready(function(){
 	}
 	}); //Smooth Scrolling
 	
+	//carousel
+	$('.carousel').carousel({
+		interval: 10000
+	})
 });
 
