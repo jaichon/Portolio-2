@@ -15,14 +15,11 @@
 		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
 		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="js/jquery.js"></script>
-		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		
 
 		<!-- Custom styling -->
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 
 		<title>Jhunior Ichon</title>
 	 </head>
@@ -47,11 +44,11 @@
 											<a class="nav-link" href="#skills">SKILLS</a>
 										</li>
 										<li class="nav-item">
-												<a class="nav-link" href="#works">WORKS</a>
-											</li>
-										<li class="nav-item">
 											<a class="nav-link" href="#experience">EXPERIENCE</a>
 										</li>
+										<li class="nav-item">
+												<a class="nav-link" href="#portfolio">PORTFOLIO</a>
+											</li>
 										<li class="nav-item">
 											<a class="nav-link" href="#contact">CONTACT</a>
 										</li>
@@ -70,7 +67,7 @@
 									<a href="#" class="cta-btn">DOWNLOAD CV &nbsp;<i class="lnr lnr-download"></i></a>
 								</div>
 								<div class="col-md-12 chevron">
-									<a href="#about"><span class="lnr lnr-chevron-down"></span></a>
+									<a href="#about"><span class="lnr lnr-chevron-down" class="semi-wht"></span></a>
 								</div>
 						 </div>
 					 </header>
@@ -82,7 +79,7 @@
 								<h2 class="header-decorated">ABOUT ME</h2>
 						</div>
 							<div class="col-sm-4 offset-md-1">
-								<img src="Images/Jay-pogi-2-300px.png" id="jay-pic" alt="Jhunior Ichon">
+								<img src="Images/Others/Jay-pogi-2-300px.png" id="jay-pic" alt="Jhunior Ichon">
 							</div> <!-- my image -->
 							<div class="col-sm-6 padTop20">
 								<h3>Hi! I'm Jay</h3>
@@ -139,7 +136,7 @@
 						<div class="timeline-container">
 							<ul class="timeline">
 								<li>
-									<div class="timeline-badge"><img src="Images/sac.png" class="sac-logo" alt="SAC logo"></div>
+									<div class="timeline-badge"><img src="Images/Others/sac.png" class="sac-logo" alt="SAC logo"></div>
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h4 class="timeline-title">Web Developer Specialist I, Straightarrow Corp.</h4>
@@ -157,7 +154,7 @@
 									</div>
 								</li>
 								<li class="timeline-inverted">
-									<div class="timeline-badge"><img src="Images/sac.png" class="sac-logo" alt="SAC logo"></div>
+									<div class="timeline-badge"><img src="Images/Others/sac.png" class="sac-logo" alt="SAC logo"></div>
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h4 class="timeline-title">Web Developer Associate, Straightarrow Corp.</h4>
@@ -175,7 +172,7 @@
 									</div>
 								</li>
 								<li>
-									<div class="timeline-badge"><img src="Images/00_dynobjx_logo_header.png" class="dynamicobjx" alt="SAC logo"></div>
+									<div class="timeline-badge"><img src="Images/Others/00_dynobjx_logo_header.png" class="dynamicobjx" alt="dynamic objx"></div>
 									<div class="timeline-panel">
 											<div class="timeline-heading">
 												<h4 class="timeline-title">Software Engineer - Intern, Dynamic Objx Labs Inc.</h4>
@@ -196,6 +193,70 @@
 					</div>
 				</section> <!-- experience -->
 
+				<section id="portfolio">
+					<div class="page-header col-md-12">
+						<h2 class="header-decorated">PORTFOLIO</h2>
+					</div>
+					<div class="tabs">
+						<button class="btn filter-button" data-filter="all">ALL</button>
+						<button class="btn filter-button" data-filter="websites">WEBSITES</button>
+						<button class="btn filter-button" data-filter="emails">EMAILS</button>
+						<button class="btn filter-button" data-filter="regforms">REGISTRATION FORMS</button>
+					</div>
+					
+					<div class="row gallery">
+						<div class="gallery-item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter emails">
+							<div class="item-container">
+									<a data-toggle="modal" data-target="#template1-modal"><img src="Images/Portfolio/promotional-template2_tn.jpg"></a>
+									<div class="overlay">
+										<span class="overlay-text">Radius Email Template</span>
+									</div>
+							</div>
+						</div>
+						<div class="gallery-item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter emails">
+								<div class="item-container">
+										<a data-toggle="modal" data-target="#template2-modal"><img src="images/Portfolio/bragan-template_tn.jpg"></a>
+										<div class="overlay">
+											<span class="overlay-text">Bragan Email Template</span>
+										</div>
+								</div>
+						</div>
+						<div class="gallery-item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter regforms">
+								<div class="item-container">
+										<img src="Images/Portfolio/gallery-img-3.jpg">
+										<div class="overlay">
+											<span class="overlay-text">Email Template</span>
+										</div>
+								</div>
+						</div>
+
+						<div class="gallery-item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter regforms">
+								<div class="item-container">
+										<img src="Images/Portfolio/gallery-img-4.jpg">
+										<div class="overlay">
+											<span class="overlay-text">Email Template</span>
+										</div>
+								</div>
+						</div>
+						<div class="gallery-item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter websites">
+								<div class="item-container">
+										<img src="Images/Portfolio/gallery-img-5.jpg">
+										<div class="overlay">
+											<span class="overlay-text">Email Template</span>
+										</div>
+								</div>
+						</div>
+						<div class="gallery-item col-lg-4 col-md-4 col-sm-4 col-xs-6 filter websites">
+								<div class="item-container">
+										<img src="Images/Portfolio/gallery-img-6.jpg">
+										<div class="overlay">
+											<span class="overlay-text">Email Template</span>
+										</div>
+								</div>
+						</div>
+					</div>
+				</section> <!-- portfolio -->
+
 				<section id="testimonials">
 					<div class="row">
 						<div class="page-header col-md-12">
@@ -206,7 +267,7 @@
 									<div class="carousel-item active">
 										<div class="quote-block w100">
 											<div class="quote-image">
-												<img src="Images/img-placeholder.png" alt="image">
+												<img src="Images/Testimonial/img-placeholder.png" alt="image">
 											</div>
 											<div class="quote-text">
 												<p class="wht">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi quibusdam. Fugiat dignissimos architecto eius ut magni ipsum temporibus numquam exercitationem? Dolores unde reprehenderit et quibusdam officia ducimus qui odit!&quot;</p>
@@ -217,7 +278,7 @@
 									<div class="carousel-item">
 										<div class="quote-block w100">
 											<div class="quote-image">
-												<img src="Images/img-placeholder-2.png" alt="image">
+												<img src="Images/Testimonial/img-placeholder-2.png" alt="image">
 											</div>
 											<div class="quote-text">
 												<p class="wht">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi quibusdam. Fugiat dignissimos architecto eius ut magni ipsum temporibus numquam exercitationem? Dolores unde reprehenderit et quibusdam officia ducimus qui odit!&quot;</p>
@@ -228,7 +289,7 @@
 									<div class="carousel-item">
 										<div class="quote-block w100">
 											<div class="quote-image">
-												<img src="Images/img-placeholder-3.png" alt="image">
+												<img src="Images/Testimonial/img-placeholder-3.png" alt="image">
 											</div>
 											<div class="quote-text">
 												<p class="wht">&quot;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eligendi quibusdam. Fugiat dignissimos architecto eius ut magni ipsum temporibus numquam exercitationem? Dolores unde reprehenderit et quibusdam officia ducimus qui odit!&quot;</p>
@@ -262,25 +323,97 @@
 					<footer>
 						<div class="row-footer">
 							<div class="footer-container">
-								<!-- <nav aria-label="breadcrumb">
-									<ol class="breadcrumb">
-										<li class="breadcrumb-item"><a href="#about" class="semi-wht">About</a></li>
-										<li class="breadcrumb-item"><a href="#testimonials" class="semi-wht">Testimonials</a></li>
-										<Jli class="breadcrumb-item"><a href="#contact" class="semi-wht">Download</a></Jli>
+									<ol>
+										<li><a href="#about" class="semi-wht font-small"><i class="lnr lnr-user"></i>&nbsp;About</a></li>
+										<li><a href="#testimonials" class="semi-wht font-small"><i class="lnr lnr-thumbs-up"></i>&nbsp;Testimonials</a></li>
+										<li><a href="#contact" class="semi-wht font-small"><i class="lnr lnr-download"></i>&nbsp;Download CV</a></li>
 									</ol>
-								</nav> -->
-								<p class="semi-wht font-small">Jhunior Ichon&copy; 2018. All rights reserved.</p>
-								<a href="mailto:hellojhuniorichon@gmail.com" class="semi-wht font-small"><i class="fa fa-envelope"></i> hellojhuniorichon@gmail.com</a>
+								</nav>
+								<p class="semi-wht font-small padTop20">Jhunior Ichon&copy; 2018. All rights reserved.</p>
+								<a href="mailto:hellojhuniorichon@gmail.com" class="semi-wht font-small padTop20"><i class="fa fa-envelope"></i> hellojhuniorichon@gmail.com</a>
 							</div>
 						</div>
 					</footer>
 				</section> <!-- footer -->
+
+
+				<!-- modal -->
+				<div class="modal fade" id="template1-modal" tabindex="-1" role="dialog" aria-labelledby="template1-modal" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Radius Email Template</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<div class="row padclear">
+										<div class="col-md-7">
+												<img class="modal-image" src="Images/Portfolio/screencast-gif.gif">
+										</div>
+										<div class="col-md-5">
+											<div class="modal-description padTop20">
+												<h4>Description</h4>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat delectus sapiente sequi, voluptatem dolor quas obcaecati vero expedita nobis harum.</p>
+											</div>
+											<div class="modal-color-scheme">
+
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-outline-danger close-btn" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- modal -->
+				<div class="modal fade" id="template2-modal" tabindex="-1" role="dialog" aria-labelledby="template2-modal" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title">Bragan Email Template</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<div class="row padclear">
+										<div class="col-md-7">
+												<img class="modal-image" src="Images/Portfolio/bragan-screencast-gif.gif">
+										</div>
+										<div class="col-md-5">
+											<div class="modal-description padTop20">
+												<h4>Description</h4>
+												<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fugiat delectus sapiente sequi, voluptatem dolor quas obcaecati vero expedita nobis harum.</p>
+											</div>
+											<div class="modal-color-scheme">
+
+											</div>
+										</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-outline-danger close-btn" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 		</div>	
+
 
 
 
 
 		<!-- Custom script -->
 		<script src="js/myscript.js"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	</body>
 </html>
